@@ -25,7 +25,7 @@
       <url>http://18.191.0.225:8081/repository/mohan.com_project/</url>
     </repository>
     
-    <snapshotRepository/>
+    <snapshotRepository>
     <id>deployment</id>
     <name>internal releases</name>
     <url>http://18.191.0.225:8081/repository/mohan_project/</url>
