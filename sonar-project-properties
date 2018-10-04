@@ -1,0 +1,9 @@
+sonar.projectKey=mohan.live.com
+sonar.projectName=docker_apps
+sonar.projectVerision=1.0
+
+sonar.source=src
+
+sonar.lanaguage=java
+
+sonar.sourceEncoding=UTF-8
