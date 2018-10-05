@@ -32,13 +32,13 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>deployment</id>
+      <id>nexus</id>
       <name>internal releases1</name>
       <url>http://18.223.30.0:8081/repository/mohan.com_project</url>
     </repository>
     
     <snapshotRepository>
-    <id>deployment</id>
+    <id>nexus</id>
     <name>internal releases</name>
     <url>http://18.223.30.0:8081/repository/mohan_project/</url>
     </snapshotRepository>
