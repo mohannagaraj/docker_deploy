@@ -4,7 +4,7 @@
   <groupId>mohan.live.com</groupId>
   <artifactId>docker_apps</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0.Snapshot</version>
   <name>docker_app Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
