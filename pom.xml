@@ -1,15 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
   <groupId>mohan.live.com</groupId>
   <artifactId>docker_apps</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
-  
   <name>docker_app Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,15 +27,23 @@
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
           <version>2.7.1</version>
-        </plugin> 
-    </plugins>
-  </build>
+        </plugin>
+    </plugins> </build>
   <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>internal releases1</name>
-      <url>http://18.223.30.0:8081/repository/mohan.com_project/</url>
+      <url>http://18.223.30.0:8081/repository/mohan.com_project</url>
     </repository>
-    
-   
+
+    <snapshotRepository>
+    <id>nexus</id>
+    <name>internal releases</name>
+    <url>http://18.223.30.0:8081/repository/mohan_project/</url>
+    </snapshotRepository>
+    </distributionManagement>
+
 </project>
+
+    
+
