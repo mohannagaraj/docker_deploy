@@ -29,13 +29,13 @@
     <repository>
       <id>deployment</id>
       <name>internal releases1</name>
-      <url>http://18.191.0.225:8081/repository/mohan.com_project/</url>
+      <url>http://18.223.30.0:8081/repository/mohan.com_project</url>
     </repository>
     
     <snapshotRepository>
     <id>deployment</id>
     <name>internal releases</name>
-    <url>http://18.191.0.225:8081/repository/mohan_project/</url>
+    <url>http://18.223.30.0:8081/repository/mohan_project/</url>
     </snapshotRepository>
     </distributionManagement>
     
